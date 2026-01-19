@@ -51,7 +51,6 @@ class _PipelineScreenState extends State<PipelineScreen> {
       alibis: game.alibis,
       clues: game.clues,
       knowledgeGraph: game.knowledgeGraph,
-      knowledgeGraph: game.knowledgeGraph,
       assets: game.assets,
       agents: await agentService.setupAgents(game, graph),
     );
